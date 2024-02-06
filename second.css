@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 500px;
+    height: 725px;
+    width: 400px;
+    border-radius: 1rem;
+    background-color: rgb(42, 67, 165);
+    border-color: black;
+}
+
+.img1{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    /* padding-left: 50px; */
+    /* padding-top: 2rem; */
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 2rem;
+}
+.row{
+    display: flex;
+}
+.row5{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    justify-content:space-between ;
+    align-items: start;
+    flex-direction: column;
+}
